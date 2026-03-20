@@ -2,13 +2,13 @@
 
 ### Learning Path · Phase 1 part 2 · GIS \& Cartography
 
-## 
+---
 
 ## Land use classification map of Santa Rosa, La Pampa (2023), 
 
 ## built in QGIS using real cadastral data from D.G.C. La Pampa.
 
-## 
+---
 
 ## 📌 Project Goal
 
@@ -24,7 +24,7 @@
 
 ## \- Full cartographic layout (title, legend, scale, north arrow)
 
-## 
+---
 
 ## 🛠️ Tools Used
 
@@ -40,7 +40,7 @@
 
 ## \- Projection: WGS84 / UTM Zone 21S (EPSG:32721)
 
-## 
+---
 
 ## 📂 Outputs
 
@@ -48,7 +48,7 @@
 
 ## \- `outputs/p2\_UsoSuelo\_SantaRosa\_LaPampa\_2023.png` — preview
 
-## 
+--- 
 
 ## 📊 Results
 
@@ -72,13 +72,13 @@
 
 ## | \*\*TOTAL\*\* | \*\*226.23\*\* | \*\*100%\*\* |
 
-## 
+---
 
 🖼️ Preview
 ![Map Preview](outputs/p2_UsoSuelo_SantaRosa_LaPampa_2023.png)
 ===
 
-## 
+---
 
 ## 📚 What I Learned
 
@@ -96,7 +96,7 @@
 
 ## \- Exporting maps in PNG and PDF at print quality
 
-## 
+---
 
 # Part of my portfolio — documenting my journey from zero 
 

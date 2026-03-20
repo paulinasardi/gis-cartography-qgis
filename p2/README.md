@@ -1,6 +1,6 @@
 # 🗺️ P2 — Land Use Map · Santa Rosa, La Pampa
 
-# DRONEX Learning Path · Phase 1 part 2 · GIS \& Cartography
+# Learning Path · Phase 1 part 2 · GIS \& Cartography
 
 # 
 

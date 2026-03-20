@@ -33,20 +33,20 @@ Calculate and visualize spectral indices to analyze:
 ---
 
 ## 📂 Outputs
-- `outputs/NDVI_TP3.pdf` — NDVI map (300dpi, geospatial PDF)
-- `outputs/NDVI_TP3.png` — NDVI map preview (150dpi)
-- `outputs/NDWI_TP3.pdf` — NDWI map (300dpi, geospatial PDF)
-- `outputs/NDWI_TP3.png` — NDWI map preview (150dpi)
+- `outputs/Paso_de_los_Toros_NDVI.pdf` — NDVI map (300dpi, geospatial PDF)
+- `outputs/Paso_de_los_Toros_NDVI.png` — NDVI map preview (150dpi)
+- `outputs/Paso_de_los_Toros_NDWI.pdf` — NDWI map (300dpi, geospatial PDF)
+- `outputs/Paso_de_los_Toros_NDWI.png` — NDWI map preview (150dpi)
 
 ---
 
 ## 🖼️ Preview
 
 ### NDVI — Vegetation Index
-![NDVI](outputs/NDVI_TP3.png)
+![NDVI](outputs/Paso_de_los_Toros_NDVI.png)
 
 ### NDWI — Water Index
-![NDWI](outputs/NDWI_TP3.png)
+![NDWI](outputs/Paso_de_los_Toros_NDWI.png)
 
 ---
 

@@ -1,5 +1,5 @@
 # 🗺️ P1 — Political Map of Argentina
-### DRONEX Learning Path · Phase 1 · GIS & Cartography
+### Learning Path · Phase 1 · GIS & Cartography
 
 First cartographic map built in QGIS as part of my roadmap 
 toward professional drone mapping and GIS work in 

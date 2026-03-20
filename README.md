@@ -5,13 +5,13 @@ using QGIS and Sentinel-2 satellite data.
 
 ## 📁 Projects
 
-| TP | Description | Status |
+| P | Description | Status |
 |----|-------------|--------|
-| TP1 | Political map of Argentina | ✅ Done |
-| TP2 | Land use mapping — Santa Rosa, La Pampa | ✅ Done |
-| TP3 | Multispectral analysis — Paso de los Toros, Uruguay | ✅ Done |
-| TP4 | NDVI raster analysis | 🔜 Coming soon |
-| TP5 | Unsupervised classification | 🔜 Coming soon |
+| P1 | Political map of Argentina | ✅ Done |
+| P2 | Land use mapping — Santa Rosa, La Pampa | ✅ Done |
+| P3 | Multispectral analysis — Paso de los Toros, Uruguay | ✅ Done |
+| P4 | NDVI raster analysis | 🔜 Coming soon |
+| P5 | Unsupervised classification | 🔜 Coming soon |
 
 ## 🛠️ Tools
 QGIS · SCP Plugin · Sentinel-2 L2A · Copernicus Browser · NDVI · NDWI

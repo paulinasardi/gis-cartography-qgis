@@ -6,7 +6,7 @@
 
 ## Land use classification map of Santa Rosa, La Pampa (2023), 
 
-## built in QGIS using real cadastral data from D.G.C. La Pampa.
+ built in QGIS using real cadastral data from D.G.C. La Pampa.
 
 ---
 

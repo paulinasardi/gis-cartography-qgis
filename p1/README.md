@@ -40,6 +40,3 @@ Produce a professional political map of Argentina with:
 - Exporting maps at 300dpi for print
 
 ---
-
-*Part of my portfolio — documenting my journey from 
-zero to professional GIS & drone mapping technician.*

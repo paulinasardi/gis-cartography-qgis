@@ -1,7 +1,7 @@
 # 🛰️ P3 — Multispectral Analysis · Paso de los Toros, Uruguay
 ### Learning Path · Phase 1 · GIS & Cartography
 Multispectral satellite image analysis using Sentinel-2 L2A data
-over Paso de los Toros, Rivera, Uruguay.
+over Paso de los Toros, Tacuarembó, Uruguay.
 
 ---
 

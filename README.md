@@ -17,4 +17,4 @@ using QGIS and Sentinel-2 satellite data.
 QGIS · SCP Plugin · Sentinel-2 L2A · Copernicus Browser · NDVI · NDWI
 
 ## 📍 Study areas
-Santa Rosa, La Pampa, Argentina · Paso de los Toros, Rivera, Uruguay
+Santa Rosa, La Pampa, Argentina · Paso de los Toros, Tacuarembó, Uruguay

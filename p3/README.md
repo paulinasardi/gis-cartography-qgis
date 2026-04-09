@@ -14,7 +14,7 @@ Calculate and visualize spectral indices to analyze:
 ---
 
 ## 🛠️ Tools & Data
-- QGIS 3.x
+- QGIS 3.44
 - SCP Plugin (Semi-Automatic Classification Plugin)
 - Sentinel-2 L2A — Copernicus Browser
 - Bands used: B02, B03, B04, B08, B11, B12

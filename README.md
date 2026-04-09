@@ -10,7 +10,7 @@ using QGIS and Sentinel-2 satellite data.
 | P1 | Political map of Argentina | ✅ Done |
 | P2 | Land use mapping — Santa Rosa, La Pampa | ✅ Done |
 | P3 | Multispectral analysis — Paso de los Toros, Uruguay | ✅ Done |
-| P4 | NDVI raster analysis | 🔜 Coming soon |
+| P4 | NDVI raster analysis | ✅ Done |
 | P5 | Unsupervised classification | 🔜 Coming soon |
 
 ## 🛠️ Tools

@@ -62,6 +62,25 @@ Calculate and compare NDVI between two sensors to analyze:
 
 ---
 
+## 📈 NDVI Histogram Analysis
+
+| Metric | Sentinel-2 (10m) | Landsat 9 (30m) |
+|---|---|---|
+| Value range | 0.0 – 0.95 | 0.0 – 0.75 |
+| Main peak | ~0.20 | ~0.10 |
+| Active vegetation zone | 0.20 – 0.90 | 0.20 – 0.45 |
+| High vegetation (>0.6) | Present | Absent |
+
+**Interpretation:**
+Sentinel-2 captures a wider NDVI range (up to 0.95), resolving dense vegetation
+that Landsat 9 cannot detect at 30m resolution. Landsat's histogram is compressed
+toward lower values, with its dominant peak at 0.10 indicating that mixed pixels
+(vegetation + bare soil) pull NDVI values down. The secondary peak near 0.90 in
+Sentinel-2 represents dense crop canopies that are averaged out in Landsat's
+coarser pixels.
+
+---
+
 ## 📚 What I Learned
 - Downloading Sentinel-2 and Landsat 9 imagery from different platforms
 - Reprojecting rasters to a common CRS (EPSG:32720) in QGIS

@@ -14,7 +14,7 @@ using QGIS and Sentinel-2 satellite data.
 | P5 | Unsupervised classification | 🔜 Coming soon |
 
 ## 🛠️ Tools
-QGIS · SCP Plugin · Sentinel-2 L2A · Copernicus Browser · NDVI · NDWI
+QGIS · SCP Plugin · Sentinel-2 L2A · Landsat 9 · Copernicus Browser · NDVI · NDWI
 
 ## 📍 Study areas
-Santa Rosa, La Pampa, Argentina · Paso de los Toros, Tacuarembó, Uruguay
+Argentina · Uruguay

@@ -1,48 +1,72 @@
-# TP04 — NDVI Comparison: Sentinel-2 vs Landsat 9 | Anguil, La Pampa
+# 🛰️ P4 — NDVI Comparison: Sentinel-2 vs Landsat 9 · Anguil, La Pampa, Argentina
+### Learning Path · Phase 1 · GIS & Cartography
+Comparative NDVI analysis using Sentinel-2 L2A and Landsat 9 C2 L2 data
+over the agricultural zone of Anguil, La Pampa, Argentina.
 
-## Project Goal
-Compare NDVI calculated from Sentinel-2 (10m resolution) and Landsat 9 (30m resolution) 
-over an active agricultural zone in La Pampa, Argentina, to analyze the spatial detail 
-differences between both sensors.
+---
 
-## Study Area
-Agricultural zone between Anguil, Catriló and Trenel, La Pampa, Argentina.
-Presence of INTA EEA Anguil. Crops: soy, sunflower, wheat and maize.
-Parcel sizes of 50–200 ha make resolution differences meaningful.
+## 📌 Project Goal
+Calculate and compare NDVI between two sensors to analyze:
+- Vegetation health and stress zones (NDVI < 0.3)
+- Spatial resolution impact on vegetation index values (10m vs 30m)
+- Agricultural parcel detection capability per sensor
 
-## Tools Used
-- QGIS 3.x
-- Copernicus Browser (Sentinel-2 L2A)
-- USGS Earth Explorer (Landsat 9 C2 L2)
+---
+
+## 🛠️ Tools & Data
+- QGIS 3.44
 - Raster Calculator (NDVI formula)
-- SCP Plugin
+- Sentinel-2 L2A — Copernicus Browser
+- Landsat 9 OLI C2 L2 — USGS Earth Explorer
+- Sentinel-2 bands used: B04 (Red), B08 (NIR) · Scene date: 14/03/2025
+- Landsat 9 bands used: SR_B4 (Red), SR_B5 (NIR) · Scene date: 17/03/2025
+- Cloud coverage: <10%
+- CRS: EPSG:32720 — UTM Zone 20S
 
-## Data
-| Sensor | Date | Resolution | Bands |
-|---|---|---|---|
-| Sentinel-2 L2A | 14/03/2025 | 10m | B04, B08 |
-| Landsat 9 C2 L2 | 17/03/2025 | 30m | SR_B4, SR_B5 |
+---
 
-## Outputs
-- NDVI map Sentinel-2 (RdYlGn, range -0.2 to 0.8)
-- NDVI map Landsat 9 (RdYlGn, range -0.2 to 0.8)
-- Vegetation Stress mask (NDVI < 0.3) for both sensors
-- NDVI histograms for both sensors
+## 📊 Index Calculated
 
-## PNG Preview
-![NDVI Sentinel](outputs/NDVI_Sentinel_Anguil.png)
-![NDVI Landsat](outputs/NDVI_Landsat_Anguil.png)
+| Index | Formula | Purpose |
+|-------|---------|---------|
+| NDVI | (NIR − Red) / (NIR + Red) | Vegetation health & stress detection |
 
-## Key Finding
-Landsat 30m pixels mix vegetation and bare soil within the same pixel, 
-lowering average NDVI values and generating more vegetation stress detections 
-than Sentinel-2. Sentinel resolves individual parcel boundaries clearly, 
-while Landsat generalizes them.
+---
 
-## What I Learned
-- Downloading and processing Sentinel-2 and Landsat 9 imagery
-- Reprojecting rasters to UTM Zone 20S (EPSG:32720)
-- Calculating NDVI with Raster Calculator in QGIS
-- Creating vegetation stress masks
-- Comparing spatial resolution effects on index values
+## 📂 Outputs
+- `outputs/p4_NDVI_Sentinel.pdf` — NDVI Sentinel-2 map (300dpi)
+- `outputs/p4_NDVI_Sentinel.png` — NDVI Sentinel-2 map preview (150dpi)
+- `outputs/p4_NDVI_Landsat.pdf` — NDVI Landsat 9 map (300dpi)
+- `outputs/p4_NDVI_Landsat.png` — NDVI Landsat 9 map preview (150dpi)
+- `outputs/histogram_sentinel.png` — NDVI histogram Sentinel-2
+- `outputs/histogram_landsat.png` — NDVI histogram Landsat 9
+
+---
+
+## 🖼️ Preview
+
+### NDVI Sentinel-2 — 10m resolution
+![NDVI Sentinel](outputs/p4_NDVI_Sentinel.png)
+
+### NDVI Landsat 9 — 30m resolution
+![NDVI Landsat](outputs/p4_NDVI_Landsat.png)
+
+---
+
+## 💡 Key Findings
+- Sentinel-2 at 10m resolves individual parcel boundaries clearly
+- Landsat 9 at 30m mixes vegetation and bare soil within the same pixel, lowering average NDVI values
+- Vegetation stress zones (NDVI < 0.3) are more spatially precise in Sentinel-2
+- Both sensors agree on the general distribution of healthy vs stressed vegetation
+- The 30m resolution of Landsat generalizes field boundaries clearly visible in Sentinel-2
+
+---
+
+## 📚 What I Learned
+- Downloading Sentinel-2 and Landsat 9 imagery from different platforms
+- Reprojecting rasters to a common CRS (EPSG:32720) in QGIS
+- Calculating NDVI using the Raster Calculator
+- Creating vegetation stress masks with threshold expressions (NDVI < 0.3)
+- Comparing spatial resolution effects on spectral index values
+- Generating and interpreting NDVI histograms
 - Professional cartographic layout design in QGIS Print Layout

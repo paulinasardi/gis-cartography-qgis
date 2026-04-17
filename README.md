@@ -11,7 +11,7 @@ using QGIS and Sentinel-2 satellite data.
 | P2 | Land use mapping — Santa Rosa, La Pampa | ✅ Done |
 | P3 | Multispectral analysis — Paso de los Toros, Uruguay | ✅ Done |
 | P4 | NDVI raster analysis | ✅ Done |
-| P5 | Unsupervised classification | 🔜 Coming soon |
+| P5 | Unsupervised classification | ✅ Done |
 
 ## 🛠️ Tools
 QGIS · SCP Plugin · Sentinel-2 L2A · Landsat 9 · Copernicus Browser · NDVI · NDWI

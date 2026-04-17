@@ -34,10 +34,10 @@ most important wine-producing regions.
 ### 🗺️ Map Previews
 
 **LULC Classification vs K-means Clustering**
-![LULC Classification](P5_LULC_Classification_ValleDeUco.png)
+![LULC Classification](outputs/TP5_LULC_Classification_ValleDeUco.png)
 
 **Spectral Indexes — EVI | SAVI | NBR | NDWI**
-![Spectral Indexes](P5_Spectral_Indexes_ValleDeUco.png)
+![Spectral Indexes](outputs/TP5_Spectral_Indexes_ValleDeUco.png)
 
 ---
 

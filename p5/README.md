@@ -38,6 +38,7 @@ most important wine-producing regions.
 
 **Spectral Indexes — EVI | SAVI | NBR | NDWI**
 ![Spectral Indexes](outputs/P5_Spectral_Indexes_ValleDeUco.png)
+
 ---
 
 ### 🛰️ Bands Used
